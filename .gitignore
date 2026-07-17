@@ -1,0 +1,16 @@
+# 忽略基座模型文件夹（太大，禁止上传）
+gemma-3-270m-it/
+
+# 忽略原始数据集（老师已有）
+logo-detailed-prompt/
+
+# 忽略Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略云平台系统文件
+.DS_Store
+.ipynb_checkpoints/
+*.log
+adapter/checkpoint-*/
